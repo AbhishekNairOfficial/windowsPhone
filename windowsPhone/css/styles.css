@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #000;
+}
+.container-fluid {
+	background: #333;
+	width: 1080px;
+	/*border: 2px solid red; /* Remove Later*/
+}
+
+/* Search bar */
+div#searchbar p {
+	background-color: #000000;
+	border: 2px solid grey;
+	padding: 5px;
+	margin: 30px 12px 30px 12px;
+	font-size: 40px;
+}
+#searchbar {
+	margin-bottom: 30px;
+}
+/*Search bar done*/
+
+button {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* Apps List */
+div#apps div {
+	/*background-color: red;
+	border: 1px solid #fff;*/
+	margin: 10px;
+	height: 150px;
+}
+div#apps p {
+	/*text-align: left; */
+	font-size: 50px;
+	font-family: font-family: 'Encode Sans Semi Condensed', sans-serif;
+	color: #fff;
+
+}
+div#icon {
+	background-color: #0f0;
+	width: 150px;
+	float: left;
+
+}
+div#appname p {
+	/*background-color: #0f0;  /**/
+	margin: 0;
+	height: 150px;
+	padding-top: 30px;
+}
+/*Apps List done*/
