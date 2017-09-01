@@ -27,6 +27,9 @@ button {
 	text-align: center;
 	margin-bottom: 20px;
 }
+#searchbutton {
+	padding: 15px;
+	font-size: 1.2em;
 
 /* Apps List */
 div#apps div {
